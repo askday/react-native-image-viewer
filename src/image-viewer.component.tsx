@@ -492,7 +492,8 @@ export default class ImageViewer extends React.Component<Props, State> {
               key={index}
               style={{
                 ...this.styles.modalContainer,
-                ...this.styles.loadingContainer
+                ...this.styles.loadingContainer,
+                backgroundColor: 'transparent',
               }}
               imageWidth={screenWidth}
               imageHeight={screenHeight}
